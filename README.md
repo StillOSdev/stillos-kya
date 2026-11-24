@@ -132,3 +132,20 @@ CLI: `STILLOS_KYA_WALLET_KEY=0x... stillos-kya check "Acme Agent"`
 
 ## Why signed matters
 An unsigned "looks fine" is worthless if a counterparty later turns out sanctioned or fraudulent. A StillOS signed receipt is cryptographic proof that you screened *before* you paid — the audit artifact that protects you.
+
+## Your own dossier
+
+Still OS Digital Holdings LLC measures the MCP and x402 operator
+surface. If you run a server, API or agent endpoint, it probably
+already has a public, dated dossier:
+
+    https://stillosdigitalholdings.com/ratings/n/<your-host>
+
+Free with no account: your grade, your percentile in a measured
+population, and copyable badge markdown.
+
+Check any host: https://stillosdigitalholdings.com/exposure
+
+Something wrong in your dossier? Correct it, free, no account:
+
+    https://stillosdigitalholdings.com/surface/correct?host=<your-host>
